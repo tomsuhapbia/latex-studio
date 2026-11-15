@@ -1,4 +1,3 @@
-ff40abbad2bd1a03f16b28f37d7a459c2f5a09bf401f1eb7d6a4b1307b637036  LaTeXStudio-Setup-1.0.0.exe
 dbdbd6db3c8ecf6815124e1009f9425263fea6e563d088ab07eb42e611836253  LaTeXStudio-Setup-1.1.0.exe
 397e2c86018596a157ef1206619993f9d632a9b17ac3317536cefd2d2f85ade7  LaTeXStudio-Setup-1.1.1.exe
 077990e8fb9a9bffaa87371458d3c0a66a9e3c54d7efd464bbc5c02051e63389  LaTeXStudio-Setup-1.1.2.exe
