@@ -24,8 +24,50 @@
 - Loại bỏ tài nguyên font cũ không còn dùng khỏi bộ cài.
 - Kèm mã SHA-256 để kiểm tra tính toàn vẹn của bộ cài.
 
-## Các bản trước
+## 1.1.5 — Bản lưu trữ
 
-Có bộ cài lưu trữ cho **1.1.5, 1.1.4, 1.1.3, 1.1.2, 1.1.1, 1.1.0 và 1.0.0**.
-Chưa có ghi chú thay đổi riêng đã được xác nhận cho từng bản này.
-Xem [danh sách bộ cài](README.md#tải-về) để chọn phiên bản.
+[Xem Release v1.1.5](https://github.com/tomsuhapbia/latex-studio/releases/tag/v1.1.5) · [Tải bộ cài Windows x64](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.5/LaTeXStudio-Setup-1.1.5.exe) · [SHA256SUMS.txt](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.5/SHA256SUMS.txt)
+
+Bộ cài gốc **24,98 MB**, số ProductVersion đã được đối chiếu với tên phiên bản. Đây là bản lưu trữ được đăng bổ sung, không phải bản build lại từ mã nguồn hiện tại.
+
+Chưa có nhật ký thay đổi riêng đã được xác nhận cho bản này. Ghi chú Release có hướng dẫn cài đặt, yêu cầu bộ TeX và cách kiểm tra SHA-256; không gán ngược các thay đổi của bản mới hơn.
+
+## 1.1.4 — Bản lưu trữ
+
+[Xem Release v1.1.4](https://github.com/tomsuhapbia/latex-studio/releases/tag/v1.1.4) · [Tải bộ cài Windows x64](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.4/LaTeXStudio-Setup-1.1.4.exe) · [SHA256SUMS.txt](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.4/SHA256SUMS.txt)
+
+Bộ cài gốc **24,97 MB**, số ProductVersion đã được đối chiếu với tên phiên bản. Đây là bản lưu trữ được đăng bổ sung, không phải bản build lại từ mã nguồn hiện tại.
+
+Chưa có nhật ký thay đổi riêng đã được xác nhận cho bản này. Ghi chú Release có hướng dẫn cài đặt, yêu cầu bộ TeX và cách kiểm tra SHA-256; không gán ngược các thay đổi của bản mới hơn.
+
+## 1.1.3 — Bản lưu trữ
+
+[Xem Release v1.1.3](https://github.com/tomsuhapbia/latex-studio/releases/tag/v1.1.3) · [Tải bộ cài Windows x64](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.3/LaTeXStudio-Setup-1.1.3.exe) · [SHA256SUMS.txt](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.3/SHA256SUMS.txt)
+
+Bộ cài gốc **24,97 MB**, số ProductVersion đã được đối chiếu với tên phiên bản. Đây là bản lưu trữ được đăng bổ sung, không phải bản build lại từ mã nguồn hiện tại.
+
+Chưa có nhật ký thay đổi riêng đã được xác nhận cho bản này. Ghi chú Release có hướng dẫn cài đặt, yêu cầu bộ TeX và cách kiểm tra SHA-256; không gán ngược các thay đổi của bản mới hơn.
+
+## 1.1.2 — Bản lưu trữ
+
+[Xem Release v1.1.2](https://github.com/tomsuhapbia/latex-studio/releases/tag/v1.1.2) · [Tải bộ cài Windows x64](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.2/LaTeXStudio-Setup-1.1.2.exe) · [SHA256SUMS.txt](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.2/SHA256SUMS.txt)
+
+Bộ cài gốc **24,97 MB**, số ProductVersion đã được đối chiếu với tên phiên bản. Đây là bản lưu trữ được đăng bổ sung, không phải bản build lại từ mã nguồn hiện tại.
+
+Chưa có nhật ký thay đổi riêng đã được xác nhận cho bản này. Ghi chú Release có hướng dẫn cài đặt, yêu cầu bộ TeX và cách kiểm tra SHA-256; không gán ngược các thay đổi của bản mới hơn.
+
+## 1.1.1 — Bản lưu trữ
+
+[Xem Release v1.1.1](https://github.com/tomsuhapbia/latex-studio/releases/tag/v1.1.1) · [Tải bộ cài Windows x64](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.1/LaTeXStudio-Setup-1.1.1.exe) · [SHA256SUMS.txt](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.1/SHA256SUMS.txt)
+
+Bộ cài gốc **24,97 MB**, số ProductVersion đã được đối chiếu với tên phiên bản. Đây là bản lưu trữ được đăng bổ sung, không phải bản build lại từ mã nguồn hiện tại.
+
+Chưa có nhật ký thay đổi riêng đã được xác nhận cho bản này. Ghi chú Release có hướng dẫn cài đặt, yêu cầu bộ TeX và cách kiểm tra SHA-256; không gán ngược các thay đổi của bản mới hơn.
+
+## 1.1.0 — Bản lưu trữ
+
+[Xem Release v1.1.0](https://github.com/tomsuhapbia/latex-studio/releases/tag/v1.1.0) · [Tải bộ cài Windows x64](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.0/LaTeXStudio-Setup-1.1.0.exe) · [SHA256SUMS.txt](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.0/SHA256SUMS.txt)
+
+Bộ cài gốc **22,46 MB**, số ProductVersion đã được đối chiếu với tên phiên bản. Đây là bản lưu trữ được đăng bổ sung, không phải bản build lại từ mã nguồn hiện tại.
+
+Chưa có nhật ký thay đổi riêng đã được xác nhận cho bản này. Ghi chú Release có hướng dẫn cài đặt, yêu cầu bộ TeX và cách kiểm tra SHA-256; không gán ngược các thay đổi của bản mới hơn.
