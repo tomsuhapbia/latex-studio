@@ -1,0 +1,34 @@
+name: Complete v1.1.6 checksum
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/complete-v1-1-6-checksum.yml]
+permissions:
+  contents: read
+jobs:
+  checksum:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: tomsuhapbia/latex-studio
+    steps:
+      - name: Verify published installer and attach checksum
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir verify
+          cd verify
+          printf '%s  %s\n' '3b09ce6b602f7c06f768840d6e88a87acb714d0daa57c54a8c22df1877784632' 'LaTeXStudio-Setup-1.1.6.exe' > SHA256SUMS.txt
+          gh release download v1.1.6 --pattern LaTeXStudio-Setup-1.1.6.exe
+          sha256sum --check SHA256SUMS.txt
+          gh release view v1.1.6 --json assets --jq '.assets[].name' > assets.txt
+          if grep -Fxq SHA256SUMS.txt assets.txt; then
+            mkdir existing
+            gh release download v1.1.6 --pattern SHA256SUMS.txt --dir existing
+            cmp SHA256SUMS.txt existing/SHA256SUMS.txt
+          else
+            gh release upload v1.1.6 SHA256SUMS.txt
+          fi
