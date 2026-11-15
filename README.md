@@ -4,13 +4,17 @@ Soạn thảo LaTeX và xem PDF ngay trong một cửa sổ Windows.
 
 ## Tải về
 
-**Bản 1.1.6 cho Windows x64 đang chờ đăng bộ cài. Hiện chưa có bản tải về trên GitHub Releases.**
+**Bản mới nhất: 1.1.6 · Windows x64 · Phát hành ngày 15/11/2026**
 
-Các bộ cài sẽ được đăng tại [Releases](https://github.com/tomsuhapbia/latex-studio/releases). Xem [lịch sử cập nhật](CHANGELOG.md) để biết các thay đổi.
+[Tải LaTeXStudio-Setup-1.1.6.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.6/LaTeXStudio-Setup-1.1.6.exe) · [Release v1.1.6](https://github.com/tomsuhapbia/latex-studio/releases/tag/v1.1.6) · [SHA256SUMS.txt](SHA256SUMS.txt) · [Lịch sử cập nhật](CHANGELOG.md)
 
-| Phiên bản | Tên bộ cài | Trạng thái |
+Bộ cài có dung lượng khoảng 24,6 MB. SHA-256:
+
+`3b09ce6b602f7c06f768840d6e88a87acb714d0daa57c54a8c22df1877784632`
+
+| Phiên bản | Bộ cài Windows | Trạng thái |
 | --- | --- | --- |
-| **1.1.6** | `LaTeXStudio-Setup-1.1.6.exe` | Chờ đăng |
+| **1.1.6** | [LaTeXStudio-Setup-1.1.6.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.6/LaTeXStudio-Setup-1.1.6.exe) | Đã phát hành |
 | 1.1.5 | `LaTeXStudio-Setup-1.1.5.exe` | Chưa đăng |
 | 1.1.4 | `LaTeXStudio-Setup-1.1.4.exe` | Chưa đăng |
 | 1.1.3 | `LaTeXStudio-Setup-1.1.3.exe` | Chưa đăng |
