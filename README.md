@@ -15,13 +15,14 @@ Bộ cài có dung lượng khoảng 24,6 MB. SHA-256:
 | Phiên bản | Bộ cài Windows | Trạng thái |
 | --- | --- | --- |
 | **1.1.6** | [LaTeXStudio-Setup-1.1.6.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.6/LaTeXStudio-Setup-1.1.6.exe) | Đã phát hành |
-| 1.1.5 | `LaTeXStudio-Setup-1.1.5.exe` | Chưa đăng |
-| 1.1.4 | `LaTeXStudio-Setup-1.1.4.exe` | Chưa đăng |
-| 1.1.3 | `LaTeXStudio-Setup-1.1.3.exe` | Chưa đăng |
-| 1.1.2 | `LaTeXStudio-Setup-1.1.2.exe` | Chưa đăng |
-| 1.1.1 | `LaTeXStudio-Setup-1.1.1.exe` | Chưa đăng |
-| 1.1.0 | `LaTeXStudio-Setup-1.1.0.exe` | Chưa đăng |
-| 1.0.0 | `LaTeXStudio-Setup-1.0.0.exe` | Chưa đăng |
+| 1.1.5 | [LaTeXStudio-Setup-1.1.5.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.5/LaTeXStudio-Setup-1.1.5.exe) | Đã phát hành · Bản lưu trữ |
+| 1.1.4 | [LaTeXStudio-Setup-1.1.4.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.4/LaTeXStudio-Setup-1.1.4.exe) | Đã phát hành · Bản lưu trữ |
+| 1.1.3 | [LaTeXStudio-Setup-1.1.3.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.3/LaTeXStudio-Setup-1.1.3.exe) | Đã phát hành · Bản lưu trữ |
+| 1.1.2 | [LaTeXStudio-Setup-1.1.2.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.2/LaTeXStudio-Setup-1.1.2.exe) | Đã phát hành · Bản lưu trữ |
+| 1.1.1 | [LaTeXStudio-Setup-1.1.1.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.1/LaTeXStudio-Setup-1.1.1.exe) | Đã phát hành · Bản lưu trữ |
+| 1.1.0 | [LaTeXStudio-Setup-1.1.0.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.0/LaTeXStudio-Setup-1.1.0.exe) | Đã phát hành · Bản lưu trữ |
+
+Các bản 1.1.0–1.1.5 giữ nguyên bộ cài gốc để lưu trữ. Nếu không cần một phiên bản cụ thể, hãy dùng [bản mới nhất](https://github.com/tomsuhapbia/latex-studio/releases/latest). Mỗi Release có EXE, file SHA256SUMS.txt và hướng dẫn cài đặt.
 
 ## Tính năng
 
