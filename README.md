@@ -4,22 +4,20 @@ Soạn thảo LaTeX và xem PDF ngay trong một cửa sổ Windows.
 
 ## Tải về
 
-**Bản mới nhất: 1.1.6 · Windows x64**
+**Bản 1.1.6 cho Windows x64 đang chờ đăng bộ cài. Hiện chưa có bản tải về trên GitHub Releases.**
 
-[Tải LaTeXStudio-Setup-1.1.6.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.6/LaTeXStudio-Setup-1.1.6.exe) · [Tất cả phiên bản](https://github.com/tomsuhapbia/latex-studio/releases) · [Lịch sử cập nhật](CHANGELOG.md)
+Các bộ cài sẽ được đăng tại [Releases](https://github.com/tomsuhapbia/latex-studio/releases). Xem [lịch sử cập nhật](CHANGELOG.md) để biết các thay đổi.
 
-Các liên kết tải hoạt động sau khi phiên bản tương ứng được đăng trong Releases.
-
-| Phiên bản | Bộ cài Windows |
-| --- | --- |
-| **1.1.6** | [LaTeXStudio-Setup-1.1.6.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.6/LaTeXStudio-Setup-1.1.6.exe) |
-| 1.1.5 | [LaTeXStudio-Setup-1.1.5.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.5/LaTeXStudio-Setup-1.1.5.exe) |
-| 1.1.4 | [LaTeXStudio-Setup-1.1.4.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.4/LaTeXStudio-Setup-1.1.4.exe) |
-| 1.1.3 | [LaTeXStudio-Setup-1.1.3.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.3/LaTeXStudio-Setup-1.1.3.exe) |
-| 1.1.2 | [LaTeXStudio-Setup-1.1.2.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.2/LaTeXStudio-Setup-1.1.2.exe) |
-| 1.1.1 | [LaTeXStudio-Setup-1.1.1.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.1/LaTeXStudio-Setup-1.1.1.exe) |
-| 1.1.0 | [LaTeXStudio-Setup-1.1.0.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.0/LaTeXStudio-Setup-1.1.0.exe) |
-| 1.0.0 | [LaTeXStudio-Setup-1.0.0.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.0.0/LaTeXStudio-Setup-1.0.0.exe) |
+| Phiên bản | Tên bộ cài | Trạng thái |
+| --- | --- | --- |
+| **1.1.6** | `LaTeXStudio-Setup-1.1.6.exe` | Chờ đăng |
+| 1.1.5 | `LaTeXStudio-Setup-1.1.5.exe` | Chưa đăng |
+| 1.1.4 | `LaTeXStudio-Setup-1.1.4.exe` | Chưa đăng |
+| 1.1.3 | `LaTeXStudio-Setup-1.1.3.exe` | Chưa đăng |
+| 1.1.2 | `LaTeXStudio-Setup-1.1.2.exe` | Chưa đăng |
+| 1.1.1 | `LaTeXStudio-Setup-1.1.1.exe` | Chưa đăng |
+| 1.1.0 | `LaTeXStudio-Setup-1.1.0.exe` | Chưa đăng |
+| 1.0.0 | `LaTeXStudio-Setup-1.0.0.exe` | Chưa đăng |
 
 ## Tính năng
 
