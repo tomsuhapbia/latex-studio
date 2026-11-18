@@ -1,5 +1,23 @@
 # Lịch sử cập nhật
 
+## 1.2.1 — 18/11/2026
+
+[Ghi chú phát hành](https://github.com/tomsuhapbia/latex-studio/releases/tag/v1.2.1) · [Bộ cài Windows x64](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.1/LaTeXStudio-Setup-1.2.1.exe) · [Tệp SHA-256](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.1/SHA256SUMS-1.2.1.txt)
+
+- Khôi phục hàng đợi đồng bộ nếu bản PDF cũ không còn nhưng đã có bản mới hợp lệ. Ứng dụng tiếp tục trên cùng file Drive và báo xung đột nếu file trên Drive đã được chỉnh sửa.
+- Biểu tượng Drive cho biết bản PDF đang chờ, lần tải lên gần nhất và lịch thử lại. Khi cần, ứng dụng hiện thao tác **Retry** hoặc **Reconnect**.
+- Settings giữ bốn mục ở sidebar. Các thẻ bên phải cân đối trên cửa sổ rộng, xếp dọc khi thiếu chỗ và hiển thị lưu ý cạnh thao tác liên quan.
+- **Settings → About → LaTeX environment → Run check** thử biên dịch một mẫu nhỏ. Phép thử không sửa project, tự cài gói hay tải mẫu lên Drive.
+
+## 1.2.0 — 18/11/2026
+
+[Ghi chú phát hành](https://github.com/tomsuhapbia/latex-studio/releases/tag/v1.2.0) · [Bộ cài Windows x64](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.0/LaTeXStudio-Setup-1.2.0.exe) · [Tệp SHA-256](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.0/SHA256SUMS-1.2.0.txt)
+
+- Đồng bộ PDF lên Google Drive theo từng project. Chỉ bản biên dịch thành công được tải lên; hàng đợi có thể tiếp tục sau khi mở lại ứng dụng và cập nhật cùng file Drive.
+- Settings thêm tùy chỉnh màu HEX, Light/Dark/Auto và độ hạt, đồng thời cho phép xem và chuyển workspace mà không di chuyển các file nguồn.
+- Files và Outline cuộn riêng, có thể kéo thanh chia để điều chỉnh chiều cao.
+- Tự thử lại khi lỗi làm mới phiên đăng nhập tạm thời và xử lý phiên tải lên hết hạn giữa chừng.
+
 ## 1.1.6
 
 ### Cài đặt và lưu project

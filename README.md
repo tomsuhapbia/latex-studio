@@ -6,7 +6,7 @@ Soạn thảo LaTeX và xem PDF ngay trong một cửa sổ Windows.
 
 **Bản mới nhất: 1.2.1 · Windows x64 · Phát hành ngày 18/11/2026**
 
-[Tải LaTeXStudio-Setup-1.2.1.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.1/LaTeXStudio-Setup-1.2.1.exe) · [Ghi chú phát hành](https://github.com/tomsuhapbia/latex-studio/releases/tag/v1.2.1) · [Tệp SHA-256](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.1/SHA256SUMS-1.2.1.txt) · [Tất cả phiên bản](https://github.com/tomsuhapbia/latex-studio/releases)
+[Tải LaTeXStudio-Setup-1.2.1.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.1/LaTeXStudio-Setup-1.2.1.exe) · [Ghi chú phát hành](https://github.com/tomsuhapbia/latex-studio/releases/tag/v1.2.1) · [Tệp SHA-256](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.1/SHA256SUMS-1.2.1.txt) · [Tất cả phiên bản](https://github.com/tomsuhapbia/latex-studio/releases) · [Lịch sử cập nhật](CHANGELOG.md)
 
 Bộ cài khoảng 25,8 MiB. SHA-256: `bb61a0b130864239f3ed2953c2ba3d9dcf54a9775c2b23b7dc8fea33ec494628`
 
@@ -22,7 +22,7 @@ Bộ cài khoảng 25,8 MiB. SHA-256: `bb61a0b130864239f3ed2953c2ba3d9dcf54a9775
 | 1.1.1 | [LaTeXStudio-Setup-1.1.1.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.1/LaTeXStudio-Setup-1.1.1.exe) | Đã phát hành · Bản lưu trữ |
 | 1.1.0 | [LaTeXStudio-Setup-1.1.0.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.0/LaTeXStudio-Setup-1.1.0.exe) | Đã phát hành · Bản lưu trữ |
 
-Các bản 1.1.0–1.1.5 giữ nguyên bộ cài gốc để lưu trữ. Nếu không cần một phiên bản cụ thể, hãy dùng [bản mới nhất](https://github.com/tomsuhapbia/latex-studio/releases/latest). Mỗi bản phát hành có bộ cài, tệp kiểm tra SHA-256 và hướng dẫn cài đặt.
+Các bản 1.1.0–1.1.5 giữ nguyên bộ cài gốc để lưu trữ. Nếu không cần một phiên bản cụ thể, hãy dùng [bản mới nhất](https://github.com/tomsuhapbia/latex-studio/releases/latest). Mỗi bản phát hành có bộ cài, tệp kiểm tra SHA-256 và hướng dẫn cài đặt. Xem [SHA256SUMS.txt](SHA256SUMS.txt) để đối chiếu mã băm của mọi bộ cài đã phát hành.
 
 ## Có gì mới trong 1.2.1?
 
@@ -85,4 +85,4 @@ Khi nâng cấp, setup ưu tiên workspace đã dùng. Các bản cũ lưu ở `
 
 Nếu biên dịch thất bại, dùng **Run check** trong Settings để kiểm tra compiler. Nếu mẫu chạy được nhưng project vẫn lỗi, xem log biên dịch để xác định gói, font hoặc dòng LaTeX cần sửa. Khi báo lỗi trong [Issues](https://github.com/tomsuhapbia/latex-studio/issues), hãy ghi phiên bản ứng dụng, các bước tái hiện và ảnh thông báo lỗi; bỏ thông tin riêng tư trước khi gửi.
 
-Repository này dành cho tài liệu sử dụng và các bản phát hành. Mã nguồn phát triển không được phân phối tại đây. Thông báo giấy phép của các thành phần bên thứ ba đi kèm bộ cài.
+Repository này dành cho tài liệu sử dụng và các bản phát hành. Mã nguồn phát triển không được phân phối tại đây. [Thông báo giấy phép của các thành phần bên thứ ba](THIRD_PARTY_NOTICES.txt) cũng đi kèm bộ cài.
