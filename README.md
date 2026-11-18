@@ -4,17 +4,17 @@ Soạn thảo LaTeX và xem PDF ngay trong một cửa sổ Windows.
 
 ## Tải về
 
-**Bản mới nhất: 1.1.6 · Windows x64 · Phát hành ngày 15/11/2026**
+**Bản mới nhất: 1.2.1 · Windows x64 · Phát hành ngày 18/11/2026**
 
-[Tải LaTeXStudio-Setup-1.1.6.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.6/LaTeXStudio-Setup-1.1.6.exe) · [Release v1.1.6](https://github.com/tomsuhapbia/latex-studio/releases/tag/v1.1.6) · [SHA256SUMS.txt](SHA256SUMS.txt) · [Lịch sử cập nhật](CHANGELOG.md)
+[Tải LaTeXStudio-Setup-1.2.1.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.1/LaTeXStudio-Setup-1.2.1.exe) · [Ghi chú phát hành](https://github.com/tomsuhapbia/latex-studio/releases/tag/v1.2.1) · [Tệp SHA-256](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.1/SHA256SUMS-1.2.1.txt) · [Tất cả phiên bản](https://github.com/tomsuhapbia/latex-studio/releases)
 
-Bộ cài có dung lượng khoảng 24,6 MB. SHA-256:
-
-`3b09ce6b602f7c06f768840d6e88a87acb714d0daa57c54a8c22df1877784632`
+Bộ cài khoảng 25,8 MiB. SHA-256: `bb61a0b130864239f3ed2953c2ba3d9dcf54a9775c2b23b7dc8fea33ec494628`
 
 | Phiên bản | Bộ cài Windows | Trạng thái |
 | --- | --- | --- |
-| **1.1.6** | [LaTeXStudio-Setup-1.1.6.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.6/LaTeXStudio-Setup-1.1.6.exe) | Đã phát hành |
+| **1.2.1** | [LaTeXStudio-Setup-1.2.1.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.1/LaTeXStudio-Setup-1.2.1.exe) | Bản mới nhất |
+| 1.2.0 | [LaTeXStudio-Setup-1.2.0.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.0/LaTeXStudio-Setup-1.2.0.exe) | Đã phát hành |
+| 1.1.6 | [LaTeXStudio-Setup-1.1.6.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.6/LaTeXStudio-Setup-1.1.6.exe) | Đã phát hành |
 | 1.1.5 | [LaTeXStudio-Setup-1.1.5.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.5/LaTeXStudio-Setup-1.1.5.exe) | Đã phát hành · Bản lưu trữ |
 | 1.1.4 | [LaTeXStudio-Setup-1.1.4.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.4/LaTeXStudio-Setup-1.1.4.exe) | Đã phát hành · Bản lưu trữ |
 | 1.1.3 | [LaTeXStudio-Setup-1.1.3.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.3/LaTeXStudio-Setup-1.1.3.exe) | Đã phát hành · Bản lưu trữ |
@@ -22,7 +22,15 @@ Bộ cài có dung lượng khoảng 24,6 MB. SHA-256:
 | 1.1.1 | [LaTeXStudio-Setup-1.1.1.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.1/LaTeXStudio-Setup-1.1.1.exe) | Đã phát hành · Bản lưu trữ |
 | 1.1.0 | [LaTeXStudio-Setup-1.1.0.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.0/LaTeXStudio-Setup-1.1.0.exe) | Đã phát hành · Bản lưu trữ |
 
-Các bản 1.1.0–1.1.5 giữ nguyên bộ cài gốc để lưu trữ. Nếu không cần một phiên bản cụ thể, hãy dùng [bản mới nhất](https://github.com/tomsuhapbia/latex-studio/releases/latest). Mỗi Release có EXE, file SHA256SUMS.txt và hướng dẫn cài đặt.
+Các bản 1.1.0–1.1.5 giữ nguyên bộ cài gốc để lưu trữ. Nếu không cần một phiên bản cụ thể, hãy dùng [bản mới nhất](https://github.com/tomsuhapbia/latex-studio/releases/latest). Mỗi bản phát hành có bộ cài, tệp kiểm tra SHA-256 và hướng dẫn cài đặt.
+
+## Có gì mới trong 1.2.1?
+
+- **Google Drive:** Tự phục hồi khi PDF cũ trong hàng đợi bị mất mà đã có bản mới hợp lệ. App tiếp tục trên cùng file Drive và báo xung đột nếu file trên Drive đã bị chỉnh sửa.
+- **Settings:** Giữ bốn mục ở sidebar. Các thẻ bên phải dàn đều và tự xếp dọc khi cửa sổ hẹp; lưu ý nằm cạnh thao tác liên quan.
+- **Kiểm tra LaTeX:** Vào **Settings → About → LaTeX environment → Run check**. App thử biên dịch một mẫu nhỏ, không chỉnh sửa project, tự cài gói hay tải mẫu lên Drive.
+
+Xem [ghi chú 1.2.0](https://github.com/tomsuhapbia/latex-studio/releases/tag/v1.2.0) để biết thêm về tính năng đồng bộ PDF, tùy chỉnh giao diện và quản lý workspace.
 
 ## Tính năng
 
@@ -34,6 +42,7 @@ Các bản 1.1.0–1.1.5 giữ nguyên bộ cài gốc để lưu trữ. Nếu k
 - Menu dấu chấm ở từng file để Rename hoặc Delete.
 - Gợi ý lệnh LaTeX, outline và xem trước công thức.
 - Xuất PDF bằng nút Export PDF.
+- Đồng bộ PDF theo project lên Google Drive và tùy chọn chia sẻ hoạt động qua Discord Rich Presence.
 
 ## Cài đặt
 
@@ -44,6 +53,14 @@ Các bản 1.1.0–1.1.5 giữ nguyên bộ cài gốc để lưu trữ. Nếu k
 5. Chọn **New project** để bắt đầu, hoặc **Import folder** để đưa project có sẵn vào workspace.
 
 Ứng dụng cần Windows 10 (1809 trở lên) hoặc Windows 11 x64, Microsoft WebView2 Runtime và một bộ TeX có compiler phù hợp, chẳng hạn MiKTeX. Setup kiểm tra WebView2 và hỗ trợ cài nếu thiếu; bước này cần Internet. Bộ TeX và các gói LaTeX được cài riêng. Sau khi có đủ các thành phần này, bạn có thể soạn và biên dịch offline.
+
+## Đồng bộ PDF lên Google Drive
+
+1. Mở **Settings → Integrations → Connect Google Drive** và đăng nhập.
+2. Mở project, bật **Auto-sync PDF** ở cụm Google Drive rồi biên dịch thành công.
+3. Bấm biểu tượng trạng thái để xem bản đang chờ, lần tải lên gần nhất và lịch thử lại. Bấm chữ **Google Drive** để mở bản PDF đã đồng bộ.
+
+Ứng dụng chỉ tải PDF sau khi biên dịch thành công; mã nguồn ở trên máy. Khi mất mạng, app giữ hàng đợi để thử lại. Nếu Google báo ứng dụng đang ở chế độ thử nghiệm, chỉ tài khoản được Google cho phép mới kết nối được.
 
 ## Project được lưu ở đâu?
 
@@ -66,6 +83,6 @@ Khi nâng cấp, setup ưu tiên workspace đã dùng. Các bản cũ lưu ở `
 
 ## Hỗ trợ
 
-Nếu biên dịch thất bại, kiểm tra compiler đang chọn, bộ TeX và các package mà tài liệu sử dụng. Khi báo lỗi trong [Issues](https://github.com/tomsuhapbia/latex-studio/issues), hãy ghi phiên bản ứng dụng, các bước tái hiện và ảnh thông báo lỗi; bỏ thông tin riêng tư trước khi gửi.
+Nếu biên dịch thất bại, dùng **Run check** trong Settings để kiểm tra compiler. Nếu mẫu chạy được nhưng project vẫn lỗi, xem log biên dịch để xác định gói, font hoặc dòng LaTeX cần sửa. Khi báo lỗi trong [Issues](https://github.com/tomsuhapbia/latex-studio/issues), hãy ghi phiên bản ứng dụng, các bước tái hiện và ảnh thông báo lỗi; bỏ thông tin riêng tư trước khi gửi.
 
 Repository này dành cho tài liệu sử dụng và các bản phát hành. Mã nguồn phát triển không được phân phối tại đây. Thông báo giấy phép của các thành phần bên thứ ba đi kèm bộ cài.
