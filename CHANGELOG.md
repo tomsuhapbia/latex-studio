@@ -1,5 +1,19 @@
 # Lịch sử cập nhật
 
+## 1.2.2 — 21/11/2026
+
+[Ghi chú phát hành](https://github.com/tomsuhapbia/latex-studio/releases/tag/v1.2.2) · [Bộ cài Windows x64](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.2/LaTeXStudio-Setup-1.2.2.exe) · [Tệp SHA-256](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.2/SHA256SUMS-1.2.2.txt)
+
+### Soạn thảo
+
+- Thêm **Find and Replace** cho file đang mở. Dùng **Ctrl + F** để tìm và **Ctrl + H** để chuyển tới ô thay thế.
+- Hỗ trợ phân biệt hoa thường, khớp nguyên từ và biểu thức chính quy. Hiển thị số kết quả, cho phép đi tới kết quả trước hoặc sau, chọn tất cả kết quả, thay từng chỗ hoặc thay tất cả. Có thể hoàn tác bằng **Ctrl + Z**.
+
+### Xem PDF
+
+- Giữ **Ctrl** và lăn chuột trong khung PDF để thu phóng quanh vị trí con trỏ. Dùng **−** và **+** trên thanh dưới khung PDF, hoặc bấm mức phần trăm để trở về chế độ vừa chiều rộng.
+- Giữ nút chuột trái trên trang PDF để soi 2×. Kính lúp nằm trong khung xem và tự tắt khi thả chuột hoặc kéo ra khỏi khung. Bấm biểu tượng kính lúp trên thanh PDF để bật hoặc tắt thao tác giữ chuột.
+
 ## 1.2.1 — 18/11/2026
 
 [Ghi chú phát hành](https://github.com/tomsuhapbia/latex-studio/releases/tag/v1.2.1) · [Bộ cài Windows x64](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.1/LaTeXStudio-Setup-1.2.1.exe) · [Tệp SHA-256](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.1/SHA256SUMS-1.2.1.txt)
