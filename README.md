@@ -4,15 +4,16 @@ Soạn thảo LaTeX và xem PDF ngay trong một cửa sổ Windows.
 
 ## Tải về
 
-**Bản mới nhất: 1.2.1 · Windows x64 · Phát hành ngày 18/11/2026**
+**Bản mới nhất 1.2.2 · Windows x64 · Phát hành ngày 21/11/2026**
 
-[Tải LaTeXStudio-Setup-1.2.1.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.1/LaTeXStudio-Setup-1.2.1.exe) · [Ghi chú phát hành](https://github.com/tomsuhapbia/latex-studio/releases/tag/v1.2.1) · [Tệp SHA-256](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.1/SHA256SUMS-1.2.1.txt) · [Tất cả phiên bản](https://github.com/tomsuhapbia/latex-studio/releases) · [Lịch sử cập nhật](CHANGELOG.md)
+[Tải LaTeXStudio-Setup-1.2.2.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.2/LaTeXStudio-Setup-1.2.2.exe) · [Ghi chú phát hành](https://github.com/tomsuhapbia/latex-studio/releases/tag/v1.2.2) · [Tệp SHA-256](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.2/SHA256SUMS-1.2.2.txt) · [Tất cả phiên bản](https://github.com/tomsuhapbia/latex-studio/releases) · [Lịch sử cập nhật](CHANGELOG.md)
 
-Bộ cài khoảng 25,8 MiB. SHA-256: `bb61a0b130864239f3ed2953c2ba3d9dcf54a9775c2b23b7dc8fea33ec494628`
+Bộ cài khoảng 25,8 MiB. SHA-256 `debc4486c496df74f2f11ac0ad7ba5d284c48a84c282d77e6dd501d04a2a4cdc`
 
 | Phiên bản | Bộ cài Windows | Trạng thái |
 | --- | --- | --- |
-| **1.2.1** | [LaTeXStudio-Setup-1.2.1.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.1/LaTeXStudio-Setup-1.2.1.exe) | Bản mới nhất |
+| **1.2.2** | [LaTeXStudio-Setup-1.2.2.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.2/LaTeXStudio-Setup-1.2.2.exe) | Bản mới nhất |
+| 1.2.1 | [LaTeXStudio-Setup-1.2.1.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.1/LaTeXStudio-Setup-1.2.1.exe) | Đã phát hành |
 | 1.2.0 | [LaTeXStudio-Setup-1.2.0.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.0/LaTeXStudio-Setup-1.2.0.exe) | Đã phát hành |
 | 1.1.6 | [LaTeXStudio-Setup-1.1.6.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.6/LaTeXStudio-Setup-1.1.6.exe) | Đã phát hành |
 | 1.1.5 | [LaTeXStudio-Setup-1.1.5.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.5/LaTeXStudio-Setup-1.1.5.exe) | Đã phát hành · Bản lưu trữ |
@@ -24,13 +25,11 @@ Bộ cài khoảng 25,8 MiB. SHA-256: `bb61a0b130864239f3ed2953c2ba3d9dcf54a9775
 
 Các bản 1.1.0–1.1.5 giữ nguyên bộ cài gốc để lưu trữ. Nếu không cần một phiên bản cụ thể, hãy dùng [bản mới nhất](https://github.com/tomsuhapbia/latex-studio/releases/latest). Mỗi bản phát hành có bộ cài, tệp kiểm tra SHA-256 và hướng dẫn cài đặt. Xem [SHA256SUMS.txt](SHA256SUMS.txt) để đối chiếu mã băm của mọi bộ cài đã phát hành.
 
-## Có gì mới trong 1.2.1?
+## Có gì mới trong 1.2.2?
 
-- **Google Drive:** Tự phục hồi khi PDF cũ trong hàng đợi bị mất mà đã có bản mới hợp lệ. App tiếp tục trên cùng file Drive và báo xung đột nếu file trên Drive đã bị chỉnh sửa.
-- **Settings:** Giữ bốn mục ở sidebar. Các thẻ bên phải dàn đều và tự xếp dọc khi cửa sổ hẹp; lưu ý nằm cạnh thao tác liên quan.
-- **Kiểm tra LaTeX:** Vào **Settings → About → LaTeX environment → Run check**. App thử biên dịch một mẫu nhỏ, không chỉnh sửa project, tự cài gói hay tải mẫu lên Drive.
-
-Xem [ghi chú 1.2.0](https://github.com/tomsuhapbia/latex-studio/releases/tag/v1.2.0) để biết thêm về tính năng đồng bộ PDF, tùy chỉnh giao diện và quản lý workspace.
+- Với **Find and Replace**, bấm **Ctrl + F** để tìm hoặc **Ctrl + H** để thay thế trong file đang mở. Có thể phân biệt hoa thường, khớp nguyên từ, dùng regex, đi tới từng kết quả và thay từng chỗ hoặc thay tất cả.
+- Giữ **Ctrl** và lăn chuột trong khung PDF để thu phóng. Thanh dưới khung có nút **−**, mức thu phóng, nút **+** và công tắc kính lúp. Bấm mức thu phóng để đưa trang về vừa chiều rộng.
+- Giữ chuột trái trên trang PDF để bật **kính lúp 2×**. Kính tắt khi thả chuột hoặc đưa con trỏ ra khỏi khung PDF.
 
 ## Tính năng
 
@@ -56,6 +55,8 @@ Xem [ghi chú 1.2.0](https://github.com/tomsuhapbia/latex-studio/releases/tag/v1
 
 ## Đồng bộ PDF lên Google Drive
 
+Trên máy cài mới, Google Drive cần cấu hình OAuth Desktop riêng. Có thể đặt file cấu hình tại `%LOCALAPPDATA%\LaTeXStudio\google-oauth-client.json`.
+
 1. Mở **Settings → Integrations → Connect Google Drive** và đăng nhập.
 2. Mở project, bật **Auto-sync PDF** ở cụm Google Drive rồi biên dịch thành công.
 3. Bấm biểu tượng trạng thái để xem bản đang chờ, lần tải lên gần nhất và lịch thử lại. Bấm chữ **Google Drive** để mở bản PDF đã đồng bộ.
@@ -74,7 +75,9 @@ Khi nâng cấp, setup ưu tiên workspace đã dùng. Các bản cũ lưu ở `
 | --- | --- |
 | Ctrl + S | Lưu |
 | Ctrl + Enter | Biên dịch |
-| Ctrl + F | Tìm trong file đang mở |
+| Ctrl + F / Ctrl + H | Tìm / thay thế trong file đang mở |
+| Ctrl + lăn chuột trong PDF | Thu phóng quanh con trỏ |
+| Giữ chuột trái trên trang PDF | Soi 2× khi kính lúp được bật |
 | Ctrl + Space | Gợi ý lệnh |
 | Ctrl + B / Ctrl + I | Đậm / nghiêng |
 | Ctrl + T / Ctrl + U | Thêm / bỏ chú thích dòng |
