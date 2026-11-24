@@ -4,15 +4,16 @@ Soạn thảo LaTeX và xem PDF ngay trong một cửa sổ Windows.
 
 ## Tải về
 
-**Bản mới nhất 1.2.2 · Windows x64 · Phát hành ngày 21/11/2026**
+**Bản mới nhất 1.2.4 · Windows x64 · Phát hành ngày 24/11/2026**
 
-[Tải LaTeXStudio-Setup-1.2.2.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.2/LaTeXStudio-Setup-1.2.2.exe) · [Ghi chú phát hành](https://github.com/tomsuhapbia/latex-studio/releases/tag/v1.2.2) · [Tệp SHA-256](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.2/SHA256SUMS-1.2.2.txt) · [Tất cả phiên bản](https://github.com/tomsuhapbia/latex-studio/releases) · [Lịch sử cập nhật](CHANGELOG.md)
+[Tải LaTeXStudio-Setup-1.2.4.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.4/LaTeXStudio-Setup-1.2.4.exe) · [Ghi chú phát hành](https://github.com/tomsuhapbia/latex-studio/releases/tag/v1.2.4) · [Tệp SHA-256](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.4/SHA256SUMS-1.2.4.txt) · [Tất cả phiên bản](https://github.com/tomsuhapbia/latex-studio/releases) · [Lịch sử cập nhật](CHANGELOG.md)
 
-Bộ cài khoảng 25,8 MiB. SHA-256 `debc4486c496df74f2f11ac0ad7ba5d284c48a84c282d77e6dd501d04a2a4cdc`
+Bộ cài khoảng 23,3 MiB. SHA-256 `fd29cf41cff1e22d2bad1cebc0572620d057c55094a3974aa7541c7b11f367db`
 
 | Phiên bản | Bộ cài Windows | Trạng thái |
 | --- | --- | --- |
-| **1.2.2** | [LaTeXStudio-Setup-1.2.2.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.2/LaTeXStudio-Setup-1.2.2.exe) | Bản mới nhất |
+| **1.2.4** | [LaTeXStudio-Setup-1.2.4.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.4/LaTeXStudio-Setup-1.2.4.exe) | Bản mới nhất |
+| 1.2.2 | [LaTeXStudio-Setup-1.2.2.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.2/LaTeXStudio-Setup-1.2.2.exe) | Đã phát hành |
 | 1.2.1 | [LaTeXStudio-Setup-1.2.1.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.1/LaTeXStudio-Setup-1.2.1.exe) | Đã phát hành |
 | 1.2.0 | [LaTeXStudio-Setup-1.2.0.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.0/LaTeXStudio-Setup-1.2.0.exe) | Đã phát hành |
 | 1.1.6 | [LaTeXStudio-Setup-1.1.6.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.1.6/LaTeXStudio-Setup-1.1.6.exe) | Đã phát hành |
@@ -25,23 +26,23 @@ Bộ cài khoảng 25,8 MiB. SHA-256 `debc4486c496df74f2f11ac0ad7ba5d284c48a84c2
 
 Các bản 1.1.0–1.1.5 giữ nguyên bộ cài gốc để lưu trữ. Nếu không cần một phiên bản cụ thể, hãy dùng [bản mới nhất](https://github.com/tomsuhapbia/latex-studio/releases/latest). Mỗi bản phát hành có bộ cài, tệp kiểm tra SHA-256 và hướng dẫn cài đặt. Xem [SHA256SUMS.txt](SHA256SUMS.txt) để đối chiếu mã băm của mọi bộ cài đã phát hành.
 
-## Có gì mới trong 1.2.2?
+## Có gì mới trong 1.2.4?
 
-- Với **Find and Replace**, bấm **Ctrl + F** để tìm hoặc **Ctrl + H** để thay thế trong file đang mở. Có thể phân biệt hoa thường, khớp nguyên từ, dùng regex, đi tới từng kết quả và thay từng chỗ hoặc thay tất cả.
-- Giữ **Ctrl** và lăn chuột trong khung PDF để thu phóng. Thanh dưới khung có nút **−**, mức thu phóng, nút **+** và công tắc kính lúp. Bấm mức thu phóng để đưa trang về vừa chiều rộng.
-- Giữ chuột trái trên trang PDF để bật **kính lúp 2×**. Kính tắt khi thả chuột hoặc đưa con trỏ ra khỏi khung PDF.
+- **Gợi ý lệnh thông minh hơn**: nhận diện macro và môi trường tự định nghĩa trong toàn bộ project (kể cả `\NewDocumentCommand`, `\DeclarePairedDelimiter` và thay đổi chưa lưu); **Enter** sau `\begin` tạo cặp môi trường đổi tên đồng thời, **Enter** sau `\\` giữ nguyên xuống dòng, gõ `\{` tự đóng `\}`.
+- **Share PDF… trên Google Drive**: bật/tắt quyền xem qua liên kết, sao chép liên kết và gửi lời mời qua email (**Viewer**, **Commenter**, **Editor**) ngay trong ứng dụng.
+- **Nhanh và nhẹ hơn rõ rệt**: tối ưu gõ văn bản trên tài liệu dài, chuyển tab tức thì, giảm 75% bộ nhớ dựng trang PDF mặc định, giữ cache `.aux` khi sửa file `\input` con, giảm số lượt gọi API Drive và thu gọn bộ cài còn ~23,3 MiB.
+- **Ổn định & bảo mật hơn**: tách cảnh báo BibTeX khỏi lỗi biên dịch, sửa log parser với tên file có dấu chấm, tăng cường sandbox TeX, giữ lịch sử hoàn tác khi file đổi từ ngoài đĩa, giữ project đã ghim ở đầu danh sách và hỗ trợ đổi tên chỉ khác hoa/thường trên Windows.
 
 ## Tính năng
 
-- Editor và PDF Preview cạnh nhau, có thể kéo để đổi kích thước.
-- Chọn pdfLaTeX, XeLaTeX hoặc LuaLaTeX trong menu Recompile.
-- Tự lưu, tự biên dịch và khôi phục bản nháp.
-- Quản lý nhiều project; tìm kiếm, ghim và mở lại project gần đây.
-- Import thư mục, tải hình ảnh/PDF vào project, tạo file và thư mục.
-- Menu dấu chấm ở từng file để Rename hoặc Delete.
-- Gợi ý lệnh LaTeX, outline và xem trước công thức.
-- Xuất PDF bằng nút Export PDF.
-- Đồng bộ PDF theo project lên Google Drive và tùy chọn chia sẻ hoạt động qua Discord Rich Presence.
+- Editor và PDF Preview cạnh nhau, kéo để điều chỉnh kích thước; thu phóng PDF bằng **Ctrl + lăn chuột** và **kính lúp 2×** khi giữ chuột trái.
+- Find and Replace hỗ trợ phân biệt hoa thường, khớp nguyên từ, regex và hoàn tác.
+- Chọn pdfLaTeX, XeLaTeX hoặc LuaLaTeX trong menu Recompile; giữ PDF thành công gần nhất khi lần biên dịch mới gặp lỗi.
+- Tự lưu bản nháp, khôi phục phiên làm việc, gợi ý lệnh thông minh, file outline và xem trước công thức.
+- Quản lý nhiều project; tìm kiếm, sắp xếp, ghim, đổi tên, đưa vào thùng rác và import thư mục.
+- Tải hình ảnh/PDF vào project, tạo file/thư mục, menu Rename/Delete cho từng file và xuất PDF.
+- Settings với bảng màu theo HEX, Light/Dark/Auto, hiệu ứng grain và kiểm tra môi trường LaTeX.
+- Đồng bộ & chia sẻ PDF theo project qua Google Drive và tùy chọn hiển thị hoạt động qua Discord Rich Presence.
 
 ## Cài đặt
 
@@ -51,17 +52,15 @@ Các bản 1.1.0–1.1.5 giữ nguyên bộ cài gốc để lưu trữ. Nếu k
 4. Mở LaTeX Studio từ Start Menu hoặc shortcut.
 5. Chọn **New project** để bắt đầu, hoặc **Import folder** để đưa project có sẵn vào workspace.
 
-Ứng dụng cần Windows 10 (1809 trở lên) hoặc Windows 11 x64, Microsoft WebView2 Runtime và một bộ TeX có compiler phù hợp, chẳng hạn MiKTeX. Setup kiểm tra WebView2 và hỗ trợ cài nếu thiếu; bước này cần Internet. Bộ TeX và các gói LaTeX được cài riêng. Sau khi có đủ các thành phần này, bạn có thể soạn và biên dịch offline.
+Ứng dụng cần Windows 10 (1809 trở lên) hoặc Windows 11 x64, Microsoft WebView2 Runtime và một bộ TeX có compiler phù hợp, chẳng hạn MiKTeX hoặc TeX Live. Setup kiểm tra WebView2 và hỗ trợ cài nếu thiếu; bước này cần Internet. Bộ TeX và các gói LaTeX được cài riêng. Sau khi có đủ các thành phần này, bạn có thể soạn và biên dịch offline.
 
-## Đồng bộ PDF lên Google Drive
-
-Trên máy cài mới, Google Drive cần cấu hình OAuth Desktop riêng. Có thể đặt file cấu hình tại `%LOCALAPPDATA%\LaTeXStudio\google-oauth-client.json`.
+## Đồng bộ & chia sẻ PDF trên Google Drive
 
 1. Mở **Settings → Integrations → Connect Google Drive** và đăng nhập.
 2. Mở project, bật **Auto-sync PDF** ở cụm Google Drive rồi biên dịch thành công.
-3. Bấm biểu tượng trạng thái để xem bản đang chờ, lần tải lên gần nhất và lịch thử lại. Bấm chữ **Google Drive** để mở bản PDF đã đồng bộ.
+3. Bấm biểu tượng trạng thái để xem bản đang chờ, lần tải lên gần nhất, lịch thử lại hoặc chọn **Share PDF…** để chia sẻ liên kết/mời qua email. Bấm chữ **Google Drive** để mở bản PDF đã đồng bộ.
 
-Ứng dụng chỉ tải PDF sau khi biên dịch thành công; mã nguồn ở trên máy. Khi mất mạng, app giữ hàng đợi để thử lại. Nếu Google báo ứng dụng đang ở chế độ thử nghiệm, chỉ tài khoản được Google cho phép mới kết nối được.
+Ứng dụng chỉ tải PDF sau khi biên dịch thành công; mã nguồn ở trên máy. Khi mất mạng, app giữ hàng đợi để thử lại. Nếu cần cấu hình OAuth Desktop riêng, có thể đặt tệp tại `%LOCALAPPDATA%\LaTeXStudio\google-oauth-client.json`.
 
 ## Project được lưu ở đâu?
 
@@ -78,14 +77,17 @@ Khi nâng cấp, setup ưu tiên workspace đã dùng. Các bản cũ lưu ở `
 | Ctrl + F / Ctrl + H | Tìm / thay thế trong file đang mở |
 | Ctrl + lăn chuột trong PDF | Thu phóng quanh con trỏ |
 | Giữ chuột trái trên trang PDF | Soi 2× khi kính lúp được bật |
+| Ctrl + P | Mở nhanh file |
 | Ctrl + Space | Gợi ý lệnh |
 | Ctrl + B / Ctrl + I | Đậm / nghiêng |
 | Ctrl + T / Ctrl + U | Thêm / bỏ chú thích dòng |
 | Ctrl + Shift + P | Xem trước tại con trỏ |
+| Ctrl + Shift + S | Xuất PDF |
+| Ctrl + , | Mở Settings |
 | F2 | Đổi tên file |
 
 ## Hỗ trợ
 
-Nếu biên dịch thất bại, dùng **Run check** trong Settings để kiểm tra compiler. Nếu mẫu chạy được nhưng project vẫn lỗi, xem log biên dịch để xác định gói, font hoặc dòng LaTeX cần sửa. Khi báo lỗi trong [Issues](https://github.com/tomsuhapbia/latex-studio/issues), hãy ghi phiên bản ứng dụng, các bước tái hiện và ảnh thông báo lỗi; bỏ thông tin riêng tư trước khi gửi.
+Nếu biên dịch thất bại, dùng **Settings → About → LaTeX environment → Run check** để kiểm tra compiler. Nếu mẫu chạy được nhưng project vẫn lỗi, xem log biên dịch để xác định gói, font hoặc dòng LaTeX cần sửa. Khi báo lỗi trong [Issues](https://github.com/tomsuhapbia/latex-studio/issues), hãy ghi phiên bản ứng dụng, các bước tái hiện và ảnh thông báo lỗi; bỏ thông tin riêng tư trước khi gửi.
 
 Repository này dành cho tài liệu sử dụng và các bản phát hành. Mã nguồn phát triển không được phân phối tại đây. [Thông báo giấy phép của các thành phần bên thứ ba](THIRD_PARTY_NOTICES.txt) cũng đi kèm bộ cài.

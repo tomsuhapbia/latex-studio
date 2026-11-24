@@ -8,3 +8,4 @@ f884824d0c60274944bd8bcce1de8293f658097d76ae5c74ada418a870e06a37  LaTeXStudio-Se
 6f2316e3c272047bbfaae574385f81e77683ebff6dab14d242c1f5da16f83f1c  LaTeXStudio-Setup-1.2.0.exe
 bb61a0b130864239f3ed2953c2ba3d9dcf54a9775c2b23b7dc8fea33ec494628  LaTeXStudio-Setup-1.2.1.exe
 debc4486c496df74f2f11ac0ad7ba5d284c48a84c282d77e6dd501d04a2a4cdc  LaTeXStudio-Setup-1.2.2.exe
+fd29cf41cff1e22d2bad1cebc0572620d057c55094a3974aa7541c7b11f367db  LaTeXStudio-Setup-1.2.4.exe
