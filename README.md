@@ -4,11 +4,11 @@ Soạn thảo LaTeX và xem PDF ngay trong một cửa sổ Windows.
 
 ## Tải về
 
-**Bản mới nhất 1.2.4 · Windows x64 · Phát hành ngày 24/11/2026**
+**Bản mới nhất 1.2.4 · Windows x64 · Cập nhật ngày 26/11/2026**
 
 [Tải LaTeXStudio-Setup-1.2.4.exe](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.4/LaTeXStudio-Setup-1.2.4.exe) · [Ghi chú phát hành](https://github.com/tomsuhapbia/latex-studio/releases/tag/v1.2.4) · [Tệp SHA-256](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.4/SHA256SUMS-1.2.4.txt) · [Tất cả phiên bản](https://github.com/tomsuhapbia/latex-studio/releases) · [Lịch sử cập nhật](CHANGELOG.md)
 
-Bộ cài khoảng 23,3 MiB. SHA-256 `fd29cf41cff1e22d2bad1cebc0572620d057c55094a3974aa7541c7b11f367db`
+Bộ cài khoảng 23,4 MiB. SHA-256 `25a3d80c81ec0aab72d532e9bc42e6cf294763831199899de920a6e47ed6274b`
 
 | Phiên bản | Bộ cài Windows | Trạng thái |
 | --- | --- | --- |
@@ -28,16 +28,19 @@ Các bản 1.1.0–1.1.5 giữ nguyên bộ cài gốc để lưu trữ. Nếu k
 
 ## Có gì mới trong 1.2.4?
 
+- **Bộ đếm trang PDF** hiển thị trang hiện tại / tổng số trang, ví dụ **2 / 8**, ngay cạnh kính lúp. Bộ đếm cập nhật khi cuộn, thu phóng hoặc chuyển tài liệu.
+- **Bản PDF riêng cho từng tài liệu**. **Recompile** biên dịch file `.tex` độc lập đang mở. Bản PDF thành công gần nhất của mỗi file xuất hiện khi chuyển tab. Google Drive đồng bộ từng PDF theo tên file nguồn.
+- Nhấn **Enter** để xác nhận tên khi tạo file hoặc project. Bấm **×** để đóng tab.
 - **Gợi ý lệnh thông minh hơn**: nhận diện macro và môi trường tự định nghĩa trong toàn bộ project (kể cả `\NewDocumentCommand`, `\DeclarePairedDelimiter` và thay đổi chưa lưu); **Enter** sau `\begin` tạo cặp môi trường đổi tên đồng thời, **Enter** sau `\\` giữ nguyên xuống dòng, gõ `\{` tự đóng `\}`.
 - **Share PDF… trên Google Drive**: bật/tắt quyền xem qua liên kết, sao chép liên kết và gửi lời mời qua email (**Viewer**, **Commenter**, **Editor**) ngay trong ứng dụng.
-- **Nhanh và nhẹ hơn rõ rệt**: tối ưu gõ văn bản trên tài liệu dài, chuyển tab tức thì, giảm 75% bộ nhớ dựng trang PDF mặc định, giữ cache `.aux` khi sửa file `\input` con, giảm số lượt gọi API Drive và thu gọn bộ cài còn ~23,3 MiB.
+- **Nhanh và nhẹ hơn rõ rệt**: tối ưu gõ văn bản trên tài liệu dài, chuyển tab tức thì, giảm 75% bộ nhớ dựng trang PDF mặc định, giữ cache `.aux` khi sửa file `\input` con, giảm số lượt gọi API Drive và thu gọn bộ cài còn khoảng 23,4 MiB.
 - **Ổn định & bảo mật hơn**: tách cảnh báo BibTeX khỏi lỗi biên dịch, sửa log parser với tên file có dấu chấm, tăng cường sandbox TeX, giữ lịch sử hoàn tác khi file đổi từ ngoài đĩa, giữ project đã ghim ở đầu danh sách và hỗ trợ đổi tên chỉ khác hoa/thường trên Windows.
 
 ## Tính năng
 
-- Editor và PDF Preview cạnh nhau, kéo để điều chỉnh kích thước; thu phóng PDF bằng **Ctrl + lăn chuột** và **kính lúp 2×** khi giữ chuột trái.
+- Editor và PDF Preview cạnh nhau, kéo để điều chỉnh kích thước. Thu phóng PDF bằng **Ctrl + lăn chuột** hoặc giữ chuột trái để soi **2×**. Xem số trang ngay cạnh kính lúp.
 - Find and Replace hỗ trợ phân biệt hoa thường, khớp nguyên từ, regex và hoàn tác.
-- Chọn pdfLaTeX, XeLaTeX hoặc LuaLaTeX trong menu Recompile; giữ PDF thành công gần nhất khi lần biên dịch mới gặp lỗi.
+- Chọn pdfLaTeX, XeLaTeX hoặc LuaLaTeX trong menu **Recompile**. Ứng dụng giữ PDF thành công gần nhất riêng cho mỗi tài liệu khi lần biên dịch mới gặp lỗi.
 - Tự lưu bản nháp, khôi phục phiên làm việc, gợi ý lệnh thông minh, file outline và xem trước công thức.
 - Quản lý nhiều project; tìm kiếm, sắp xếp, ghim, đổi tên, đưa vào thùng rác và import thư mục.
 - Tải hình ảnh/PDF vào project, tạo file/thư mục, menu Rename/Delete cho từng file và xuất PDF.
@@ -57,10 +60,10 @@ Các bản 1.1.0–1.1.5 giữ nguyên bộ cài gốc để lưu trữ. Nếu k
 ## Đồng bộ & chia sẻ PDF trên Google Drive
 
 1. Mở **Settings → Integrations → Connect Google Drive** và đăng nhập.
-2. Mở project, bật **Auto-sync PDF** ở cụm Google Drive rồi biên dịch thành công.
+2. Mở project, bật **Auto-sync PDF** ở cụm Google Drive rồi biên dịch thành công. PDF được đặt tên theo tài liệu, ví dụ `main2.tex` tạo `main2.pdf`.
 3. Bấm biểu tượng trạng thái để xem bản đang chờ, lần tải lên gần nhất, lịch thử lại hoặc chọn **Share PDF…** để chia sẻ liên kết/mời qua email. Bấm chữ **Google Drive** để mở bản PDF đã đồng bộ.
 
-Ứng dụng chỉ tải PDF sau khi biên dịch thành công; mã nguồn ở trên máy. Khi mất mạng, app giữ hàng đợi để thử lại. Nếu cần cấu hình OAuth Desktop riêng, có thể đặt tệp tại `%LOCALAPPDATA%\LaTeXStudio\google-oauth-client.json`.
+Ứng dụng tải PDF sau khi biên dịch thành công. Khi mất mạng, ứng dụng giữ hàng đợi để thử lại. Trên máy chưa có cấu hình OAuth Desktop, đặt tệp client tại `%LOCALAPPDATA%\LaTeXStudio\google-oauth-client.json` để kết nối Google Drive.
 
 ## Project được lưu ở đâu?
 

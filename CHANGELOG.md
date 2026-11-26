@@ -1,23 +1,30 @@
 # Lịch sử cập nhật
 
-## 1.2.4 — 24/11/2026
+## 1.2.4 — Cập nhật ngày 26/11/2026
 
 [Ghi chú phát hành](https://github.com/tomsuhapbia/latex-studio/releases/tag/v1.2.4) · [Bộ cài Windows x64](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.4/LaTeXStudio-Setup-1.2.4.exe) · [Tệp SHA-256](https://github.com/tomsuhapbia/latex-studio/releases/download/v1.2.4/SHA256SUMS-1.2.4.txt)
 
-### Soạn thảo & Gợi ý lệnh
+- Hiển thị trang hiện tại và tổng số trang cạnh kính lúp trong khung PDF. Bộ đếm cập nhật khi cuộn, thu phóng hoặc chuyển tài liệu.
+- **Recompile** biên dịch tài liệu `.tex` độc lập đang mở và lưu PDF thành công gần nhất theo từng tài liệu. Các tệp chương dùng qua `\input` vẫn biên dịch qua tài liệu chính.
+- Google Drive đồng bộ theo tên file nguồn, ví dụ `main2.tex` tạo `main2.pdf`. Trạng thái đồng bộ và chia sẻ đi theo PDF đang xem.
+- Nhấn **Enter** để xác nhận tên khi tạo file hoặc project. Dùng **×** để đóng tab.
+
+### Bản phát hành ngày 24/11/2026
+
+#### Soạn thảo & Gợi ý lệnh
 
 - Gợi ý lệnh phân biệt lệnh LaTeX, lệnh package và macro/môi trường tự định nghĩa trong project (hỗ trợ cả `\NewDocumentCommand`, `\DeclarePairedDelimiter` và các thay đổi chưa lưu trong tab đang mở).
 - **Enter** sau `\\` giữ nguyên lệnh xuống dòng; **Enter** sau `\begin` tạo cặp môi trường đổi tên đồng thời; gõ `\{` tự chèn `\}`.
 - Tối ưu độ mượt khi gõ trên tài liệu dài (không dựng lại toàn bộ cây file/tab/outline ở mỗi phím), chuyển tab tức thì không rơi ký tự và giữ nguyên lịch sử hoàn tác (**Ctrl + Z**) khi tệp thay đổi từ ngoài đĩa.
 
-### Xem PDF, Biên dịch & Hiệu năng
+#### Xem PDF, Biên dịch & Hiệu năng
 
 - Giảm 75% bộ nhớ dựng trang PDF mặc định và tải kính lúp độ nét cao 2× theo nhu cầu; hiển thị trang đích nhanh hơn với PDF nhiều trang.
 - Giữ cache `.aux` khi chỉnh sửa tệp `.tex` con được `\input`, giảm thời gian biên dịch lại cho project nhiều chương.
 - Tách cảnh báo BibTeX khỏi lỗi biên dịch, sửa phân tích log với tên tệp/nhãn có dấu chấm, tăng cường sandbox TeX (`openin_any=p`/`openout_any=p`), bỏ qua proxy hệ thống khi kiểm tra máy chủ cục bộ và hỗ trợ đổi tên chỉ khác hoa/thường trên Windows.
 - Thu gọn khoảng 2,5 MiB dung lượng bộ cài (chuyển nền mờ sang WebP, bỏ font `.woff`/`.ttf` thừa trên WebView2 và loại bỏ trang thử nghiệm cũ).
 
-### Google Drive & Giao diện
+#### Google Drive & Giao diện
 
 - Thêm **Share PDF…** trong menu trạng thái Google Drive để bật/tắt quyền xem qua liên kết, sao chép liên kết và gửi lời mời qua email với quyền **Viewer**, **Commenter** hoặc **Editor**.
 - Tối ưu đồng bộ Google Drive (giảm các lượt gọi API dư thừa và tái sử dụng phiên kết nối), giữ các project đã ghim luôn ở đầu danh sách, đồng bộ hộp thoại xác nhận theo giao diện sáng/tối và dọn sạch dữ liệu thừa khi xóa project.
